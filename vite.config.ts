@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Cafe-De-Central-1881-/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
